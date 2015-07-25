@@ -1,3 +1,15 @@
+@font-face {
+	font-family: 'sourcehans';
+	src: url('../fonts/sourcehans.eot');
+	src:
+		url('../fonts/sourcehans.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sourcehans.woff') format('woff'),
+		url('../fonts/sourcehans.ttf') format('truetype'),
+		url('../fonts/sourcehans.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .full-width {
 	height: 100%;
 	width: 100%
@@ -308,7 +320,7 @@ audio:not([controls]) {
 }
 
 html {
-	font-family: sans-serif;
+	font-family: sourcehans;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%
 }
@@ -354,7 +366,7 @@ mark {
 }
 
 code,kbd,pre,samp {
-	font-family: monospace,serif;
+	font-family: sourcehans;
 	font-size: 1em
 }
 
@@ -473,7 +485,7 @@ html {
 }
 
 body {
-	font-family: Courier,monospace;
+	font-family: sourcehans;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 1.6;
